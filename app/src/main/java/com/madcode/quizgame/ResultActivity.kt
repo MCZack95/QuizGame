@@ -29,6 +29,8 @@ class ResultActivity : AppCompatActivity() {
         val view = resultBinding.root
         setContentView(view)
 
+        supportActionBar!!.title = "Results"
+
         databaseReference.addValueEventListener(object: ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 user?.let {
