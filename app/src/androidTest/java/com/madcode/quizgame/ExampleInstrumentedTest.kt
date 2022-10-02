@@ -1,4 +1,4 @@
-package com.znotagain.quizgame
+package com.madcode.quizgame
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

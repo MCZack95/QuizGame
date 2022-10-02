@@ -1,10 +1,9 @@
-package com.znotagain.quizgame
+package com.madcode.quizgame
 
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.ActivityResultCallback
@@ -18,7 +17,7 @@ import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import com.znotagain.quizgame.databinding.ActivityLoginBinding
+import com.madcode.quizgame.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
 

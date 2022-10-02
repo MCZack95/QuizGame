@@ -1,4 +1,4 @@
-package com.znotagain.quizgame
+package com.madcode.quizgame
 
 import org.junit.Test
 

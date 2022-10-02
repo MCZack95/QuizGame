@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:371754538857:android:3fcbbee319985dd1ab4ff8",
+        "mobilesdk_app_id": "1:371754538857:android:d5d7ceb823964afdab4ff8",
         "android_client_info": {
-          "package_name": "com.znotagain.quizgame"
+          "package_name": "com.madcode.quizgame"
         }
       },
       "oauth_client": [
         {
-          "client_id": "371754538857-n5afpsofsb3tc7tumt867svdf225hkdu.apps.googleusercontent.com",
+          "client_id": "371754538857-bqnj4qbhlidv3i4k8rfjcuujjiid9kam.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.znotagain.quizgame",
+            "package_name": "com.madcode.quizgame",
             "certificate_hash": "52e9dc63ce1adb12d5bfd2b3ee7fce51add05935"
           }
         },

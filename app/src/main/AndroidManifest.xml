@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.znotagain.quizgame">
+    package="com.madcode.quizgame">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -16,29 +16,29 @@
         android:theme="@style/Theme.QuizGame"
         tools:targetApi="31">
         <activity
-            android:name=".ResultActivity"
+            android:name="com.madcode.quizgame.ResultActivity"
             android:exported="false"
             android:theme="@style/SignUpTheme" />
         <activity
-            android:name=".QuizActivity"
+            android:name="com.madcode.quizgame.QuizActivity"
             android:exported="false"
             android:theme="@style/SignUpTheme" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name="com.madcode.quizgame.ForgotPasswordActivity"
             android:exported="false"
-            android:parentActivityName=".LoginActivity"
+            android:parentActivityName="com.madcode.quizgame.LoginActivity"
             android:theme="@style/SignUpTheme" />
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.madcode.quizgame.SignUpActivity"
             android:exported="false"
-            android:parentActivityName=".LoginActivity"
+            android:parentActivityName="com.madcode.quizgame.LoginActivity"
             android:theme="@style/SignUpTheme" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.madcode.quizgame.LoginActivity"
             android:exported="false"
             android:theme="@style/AppThemeSplash" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.madcode.quizgame.WelcomeActivity"
             android:exported="true"
             android:theme="@style/AppThemeSplash">
             <intent-filter>
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.madcode.quizgame.MainActivity"
             android:exported="false"
             android:theme="@style/SignUpTheme" />
     </application>

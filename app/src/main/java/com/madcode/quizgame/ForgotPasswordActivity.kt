@@ -1,11 +1,10 @@
-package com.znotagain.quizgame
+package com.madcode.quizgame
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.znotagain.quizgame.databinding.ActivityForgotPasswordBinding
+import com.madcode.quizgame.databinding.ActivityForgotPasswordBinding
 
 class ForgotPasswordActivity : AppCompatActivity() {
 

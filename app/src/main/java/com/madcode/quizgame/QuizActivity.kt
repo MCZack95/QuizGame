@@ -1,4 +1,4 @@
-package com.znotagain.quizgame
+package com.madcode.quizgame
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -15,7 +15,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.znotagain.quizgame.databinding.ActivityQuizBinding
+import com.madcode.quizgame.databinding.ActivityQuizBinding
 import kotlin.random.Random
 
 class QuizActivity : AppCompatActivity() {
